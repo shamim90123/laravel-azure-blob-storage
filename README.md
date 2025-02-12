@@ -27,12 +27,15 @@ Run the following command to install the necessary packages:
 composer require league/flysystem-azure-blob-storage microsoft/azure-storage-blob
 ```
 
-2. Configure Azure Blob Storage
-Add the following environment variables to your .env file:
+## 2. Configure Azure Blob Storage
 
+Add the following environment variables to your `.env` file to configure Azure Blob Storage:
+
+```env
 AZURE_STORAGE_NAME=your_storage_account_name
 AZURE_STORAGE_KEY=your_storage_account_key
 AZURE_STORAGE_CONTAINER=your_container_name
+```
 
 3. Add Azure Disk Configuration
 
