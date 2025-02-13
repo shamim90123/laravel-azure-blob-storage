@@ -78,10 +78,6 @@ Clear the configuration cache to ensure Laravel picks up the new changes:
 php artisan config:cache
 ```
 
-
-## 📄 License
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
-
 ---
 
 ## 👨‍💻 Author
